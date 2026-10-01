@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Cyrus John Machete",
-  title: "Hi all, I'm Cyrus John",
+  title: "Hi all, I'm Cyrus",
   subTitle: emoji(
     "Full Stack Developer 🚀 experienced in building websites, web applications, and eCommerce solutions. Skilled in React.js, Node.js, Java, Shopify, WordPress, WooCommerce, and Shopify Liquid. Experienced with GSAP, API integrations, GHL, Zapier, Kajabi, AWS, and CI/CD, with a focus on responsive, user-friendly, and reliable solutions."
   ),
