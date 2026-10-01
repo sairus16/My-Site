@@ -33,13 +33,14 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/sairus16/",
+  linkedin: "https://www.linkedin.com/in/cyrus-john-machete-8a0a9b102/",
+  gmail: "cyrusjohn16@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  facebook: "https://www.facebook.com/saiiirus",
+  instagram: "https://www.instagram.com/saiiiiirus_/",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +50,25 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FULL STACK DEVELOPER EXPERIENCED IN WEB DEVELOPMENT, ECOMMERCE, INTEGRATIONS, AND CLOUD TECHNOLOGIES",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Build responsive and interactive web applications using React.js, JavaScript, HTML5, CSS3, and GSAP"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Develop scalable backend applications and REST APIs using Node.js, Express.js, and Java EE"
+    ),
+    emoji(
+      "⚡ Build and customize Shopify, WordPress, WooCommerce, and Elementor websites, including eCommerce stores and custom product pages"
+    ),
+    emoji(
+      "⚡ Integrate third-party services, payment gateways, REST APIs, GoHighLevel, Zapier, and Kajabi"
+    ),
+    emoji(
+      "⚡ Deploy and manage applications using AWS, Edge Cloud, GitHub Actions, and CI/CD workflows"
+    ),
+    emoji(
+      "⚡ Develop interactive landing pages, custom websites, and user-friendly digital experiences with a focus on performance and SEO"
     )
   ],
 
@@ -64,85 +76,89 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
+  {
+    skillName: "html-5",
+    fontAwesomeClassname: "fab fa-html5"
+  },
+  {
+    skillName: "css3",
+    fontAwesomeClassname: "fab fa-css3-alt"
+  },
+  {
+    skillName: "javascript",
+    fontAwesomeClassname: "fab fa-js"
+  },
+  
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
+  {
+    skillName: "reactjs",
+    fontAwesomeClassname: "fab fa-react"
+  },
+  {
+    skillName: "nodejs",
+    fontAwesomeClassname: "fab fa-node-js"
+  },
+  {
+    skillName: "aws",
+    fontAwesomeClassname: "fab fa-aws"
+  },
+  {
+    skillName: "java",
+    fontAwesomeClassname: "fab fa-java"
+  },
+  {
+    skillName: "shopify",
+    fontAwesomeClassname: "fab fa-shopify"
+  },
+  {
+    skillName: "wordpress",
+    fontAwesomeClassname: "fab fa-wordpress"
+  },
+  {
+    skillName: "npm",
+    fontAwesomeClassname: "fab fa-npm"
+  },
+  {
+    skillName: "mysql",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "sql-database",
+    fontAwesomeClassname: "fas fa-database"
+  },
+  {
+    skillName: "aws",
+    fontAwesomeClassname: "fab fa-aws"
+  },
+  {
+    skillName: "git",
+    fontAwesomeClassname: "fab fa-git-alt"
+  }
+],
+display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "AMA Computer Learning Center",
+      logo: require("./assets/images/ama-logo.png"),
+      subHeader: "Bachelor of Science in Information Technology",
+      duration: "Graduated 2015",
+      desc: "Completed a Bachelor of Science in Information Technology."
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Emmaus Christian School Inc.",
+      logo: require("./assets/images/ecs.jpeg"),
+      subHeader: "Secondary Education",
+      duration: "Graduated 2012",
+      desc: "Completed secondary education in Malanday, Valenzuela City."
     }
   ]
 };
@@ -162,7 +178,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -171,32 +187,56 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software/Web Developer",
+      company: "ELI Information Technology Solutions",
+      companylogo: require("./assets/images/eli-logo.png"),
+      date: "April 2022 – March 2025",
+      desc: "Developed and maintained web applications using React.js, Node.js, REST APIs, WordPress, Odoo, and MySQL. Led a team of 4+ developers and worked with Agile methodologies, Jira, Git, AWS, Edge Cloud, and CI/CD.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Led a team of developers and managed projects using Agile sprints and Jira.",
+        "Developed scalable React.js and Node.js applications and RESTful APIs.",
+        "Designed and developed booking and appointment websites using WordPress and Odoo.",
+        "Integrated PayMongo and third-party APIs into web applications.",
+        "Deployed applications using AWS, Edge Cloud, GitHub Actions, and CI/CD pipelines."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "IT Programmer",
+      company: "MegaKarte SmartCard Corporation",
+      companylogo: require("./assets/images/megakarte-logo.jpeg"),
+      date: "March 2016 – April 2021",
+      desc: "Designed, developed, and deployed Java EE applications using JBoss Application Server for asset tracking, loyalty management, sales performance, barangay registration, and event check-in systems.",
+      descBullets: [
+        "Developed scalable Java EE applications using JBoss Application Server.",
+        "Built systems for asset tracking, customer loyalty, sales performance, and event management.",
+        "Integrated applications with frontend systems and third-party APIs.",
+        "Optimized application performance using JBoss clustering and connection pooling."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "IT Intern",
+      company: "WeDo BPO",
+      companylogo: require("./assets/images/wedo-logo.png"),
+      date: "2015",
+      desc: "Provided IT support and assisted with internal systems, software, networking, databases, and data management.",
+      descBullets: [
+        "Provided technical support for software, hardware, and network-related issues.",
+        "Assisted with system maintenance, backups, and database queries."
+      ]
+    },
+    {
+      role: "IT Intern",
+      company: "Rockfort Documentation Services",
+      companylogo: require("./assets/images/rockfort-logo.jpeg"),
+      date: "2015",
+      desc: "Designed and developed a responsive WordPress website while focusing on accessibility, web standards, and user navigation.",
+      descBullets: [
+        "Developed and customized a responsive WordPress website.",
+        "Improved website accessibility and user navigation."
+      ]
     }
   ]
 };
@@ -213,137 +253,162 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SELECTED WEB APPLICATIONS, ECOMMERCE SOLUTIONS, AND BUSINESS SYSTEMS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      image: require("./assets/images/asset-logo.jpg"),
+      projectName: "Asset Tracking System",
+      projectDesc:
+        "Enterprise system developed using Java EE and JBoss for real-time tracking and management of organizational assets."
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      image: require("./assets/images/loyalty-logo.jpg"),
+      projectName: "Loyalty System",
+      projectDesc:
+        "Customer loyalty platform supporting point-based rewards, redemption workflows, and customer retention."
+    },
+    {
+      image: require("./assets/images/sales-logo.png"),
+      projectName: "Sales Performance System",
+      projectDesc:
+        "Dashboard and reporting system providing sales analytics and performance evaluation for business teams."
+    },
+    {
+      image: require("./assets/images/barangay-logo.png"),
+      projectName: "Barangay Registration System",
+      projectDesc:
+        "Web-based system designed to digitize and manage community registration and administrative data."
+    },
+    {
+      image: require("./assets/images/event-logo.png"),
+      projectName: "Event Check-in System",
+      projectDesc:
+        "Event management system enabling attendee validation and real-time check-in tracking."
+    },
+    {
+      image: require("./assets/images/web-logo.jpeg"),
+      projectName: "Ecommerce & Business Websites",
+      projectDesc:
+        "Developed custom Shopify, WordPress, WooCommerce, and Elementor websites including product pages, landing pages, checkout customization, and third-party integrations."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Achievements & Highlights 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Professional achievements, technical contributions, and key projects throughout my career.",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Led a Development Team",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
-        }
-      ]
+        "Led a team of developers at ELI Information Technology Solutions, managing Agile sprints, Jira tasks, code collaboration, and project delivery.",
+      image: require("./assets/images/lead.png"),
+      imageAlt: "Development Team",
+      footerLink: []
     },
     {
-      title: "Google Assistant Action",
+      title: "Enterprise Java Applications",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
+        "Designed and deployed multiple Java EE applications using JBoss, including Asset Tracking, Loyalty, Sales Performance, Barangay Registration, and Event Check-in systems.",
+      image: require("./assets/images/java-applications.png"),
+      imageAlt: "Enterprise Java Applications",
+      footerLink: []
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
+      title: "Cloud & CI/CD Deployment",
+      subtitle:
+        "Deployed web applications using AWS and Edge Cloud platforms and implemented GitHub Actions CI/CD pipelines to streamline development and deployment workflows.",
+      image: require("./assets/images/ci-cd.png"),
+      imageAlt: "Cloud and CI/CD",
+      footerLink: []
+    },
+    {
+      title: "Full Stack Web Development",
+      subtitle:
+        "Developed responsive web applications using React.js, Node.js, REST APIs, WordPress, Shopify, WooCommerce, and other modern web technologies.",
+      image: require("./assets/images/fullstack.png"),
+      imageAlt: "Full Stack Development",
+      footerLink: []
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+
+  display: true
 };
 
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Technical Insights",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+    "Sharing practical experience and insights from web development, eCommerce, cloud technologies, and software engineering.",
+  displayMediumBlogs: "false",
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "",
+      title: "Modern Full Stack Web Development",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Exploring frontend and backend development using React.js, Node.js, REST APIs, Java, and modern web technologies."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "",
+      title: "Shopify & WordPress Development",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Practical experience building custom eCommerce stores, product pages, landing pages, and integrations using Shopify, WordPress, WooCommerce, and Elementor."
+    },
+    {
+      url: "",
+      title: "API Integrations & Automation",
+      description:
+        "Working with REST APIs, GoHighLevel, Zapier, Kajabi, payment gateways, and third-party services to create connected business workflows."
+    },
+    {
+      url: "",
+      title: "Cloud & CI/CD",
+      description:
+        "Experience deploying applications with AWS, Edge Cloud, GitHub Actions, and CI/CD workflows for reliable development and deployment."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "PROFESSIONAL FOCUS",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "BUILDING PRACTICAL, RESPONSIVE, AND RELIABLE WEB SOLUTIONS 🚀"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Full Stack Web Development",
+      subtitle:
+        "React.js, Node.js, Java, REST APIs, and modern frontend and backend development",
+      slides_url: "",
+      event_url: ""
+    },
+    {
+      title: "eCommerce & CMS Development",
+      subtitle:
+        "Shopify, Shopify Liquid, WordPress, Elementor, WooCommerce, and custom eCommerce solutions",
+      slides_url: "",
+      event_url: ""
+    },
+    {
+      title: "Cloud & DevOps",
+      subtitle:
+        "AWS, Edge Cloud, GitHub Actions, CI/CD, and scalable application deployment",
+      slides_url: "",
+      event_url: ""
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false
 };
 
 // Podcast Section
@@ -356,7 +421,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,16 +436,16 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Have a project in mind or want to connect? Feel free to reach out.",
+  number: "+63 906 083 4195",
+  email_address: "cyrusjohn16@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
