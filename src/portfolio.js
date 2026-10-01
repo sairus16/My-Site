@@ -20,13 +20,13 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Cyrus John Machete",
+  title: "Hi all, I'm Cy",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Full Stack Developer 🚀 experienced in building websites, web applications, and eCommerce solutions. Skilled in React.js, Node.js, Java, Shopify, WordPress, WooCommerce, and Shopify Liquid. Experienced with GSAP, API integrations, GHL, Zapier, Kajabi, AWS, and CI/CD, with a focus on responsive, user-friendly, and reliable solutions."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1iP2ROmRj8TphEZQIX5CCcb6yMj3yJaqE/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
